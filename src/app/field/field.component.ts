@@ -10,7 +10,7 @@ export class FieldComponent implements OnInit,OnDestroy,OnChanges {
   constructor() { }
 
   ngOnInit() {
-    console.log("child ngOnInit")
+    console.log("child ngOnInit");
   }
   ngOnDestroy(){
     console.log("child ngOnDestroy");
